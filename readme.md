@@ -4,6 +4,7 @@ PixelProof is a lightweight classical computer vision system that distinguishes 
 
 Unlike deep learning approaches, this project relies entirely on handcrafted image-processing features and traditional machine learning, making it lightweight, interpretable, and suitable for CPU-only inference.
 
+Streamlit web demo - https://pixelproof.streamlit.app/
 ---
 
 ## Features
