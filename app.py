@@ -1,9 +1,20 @@
 import os
 import sys
 import tempfile
-import joblib
+
 import pandas as pd
 import streamlit as st
+
+st.write("Python started")
+
+try:
+    import joblib
+    st.success("joblib imported")
+except Exception as e:
+    st.exception(e)
+    st.stop()
+
+st.success("Everything OK")
 
 # Add src folder to Python path
 sys.path.append("src")
